@@ -29,7 +29,7 @@ judgment** — do not resolve it by building something plausible.
 
 ## Read before changing anything
 
-1. `../../AGENTS.md` and `../../wiki/hot.md`.
+1. `../../AGENTS.md` and `../../Abdul Brain/wiki/hot.md`.
 2. `ld-energy-website/README.md` — the real commands.
 3. `../../references/design-preferences.md` before building any visual pattern.
 4. `../../references/github-api.md` for anything touching the remote.
@@ -49,7 +49,7 @@ For anything **visual**, an actual screenshot is required — a description is n
 proof (`../../CLAUDE.md`, proof-of-work rule):
 
 ```bash
-node ../../scripts/webaudit.js <url>     # desktop + mobile screenshots, Lighthouse
+node ../../../scripts/webaudit.js <url>     # desktop + mobile screenshots, Lighthouse
 ```
 
 Baseline verified 2026-08-24 against production: Performance 29–30 desktop /
