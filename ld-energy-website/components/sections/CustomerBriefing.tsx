@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ArrowRight, Calculator, Check, FileText, GitCompareArrows, ReceiptText } from 'lucide-react'
+import { ArrowRight, Calculator, Check, Clock, FileText, GitCompareArrows, ReceiptText } from 'lucide-react'
 import { Container } from '@/components/ui/Container'
 import { govUk } from '@/lib/site'
 
@@ -23,6 +23,11 @@ const prepare = [
 ]
 
 const notes = [
+  {
+    Icon: Clock,
+    title: 'Turnaround',
+    body: 'The turnaround time for the EPC certificate after the assessment is within 72 hrs.',
+  },
   {
     Icon: ReceiptText,
     title: 'Pricing',
@@ -119,13 +124,15 @@ export function CustomerBriefing() {
                     </p>
                   </>
                 )}
-                <Link
-                  href={href}
-                  className="mt-1 inline-flex min-h-[44px] items-center gap-1.5 text-sm font-semibold text-primary-700 underline underline-offset-2 hover:text-primary-800"
-                >
-                  {linkLabel}
-                  <ArrowRight className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
-                </Link>
+                {href && linkLabel && (
+                  <Link
+                    href={href}
+                    className="mt-1 inline-flex min-h-[44px] items-center gap-1.5 text-sm font-semibold text-primary-700 underline underline-offset-2 hover:text-primary-800"
+                  >
+                    {linkLabel}
+                    <ArrowRight className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
+                  </Link>
+                )}
               </li>
             ))}
           </ul>
