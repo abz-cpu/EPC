@@ -19,9 +19,10 @@ leads, not just a rollback.
 
 ## Read before you decide anything
 
-1. `../../CLAUDE.md` and `../../wiki/hot.md` — parent AIOS rules, current state.
-2. `../../context/ld-energy.md` — the business this site sells.
-3. `../../context/priorities.md` — the live 90-day deadlines, including the
+1. `../../CLAUDE.md` and `../../Abdul Brain/wiki/hot.md` — parent AIOS rules,
+   current state.
+2. `../../Abdul Brain/wiki/business/ld-energy.md` — the business this site sells.
+3. `../../Abdul Brain/wiki/ops/priorities.md` — the live 90-day deadlines, including the
    local-SEO ranking goal by mid-November 2026.
 4. `../../references/design-preferences.md` — **standing** visual preferences
    given 2026-08-18 (navbar style among them). Not defaults to rediscover.
@@ -48,7 +49,7 @@ lane.
   first (`../../CLAUDE.md`). Site copy is outward-facing.
 - Client names, exact addresses and payment details are redacted to
   placeholders before landing anywhere permanent
-  (`../../context/privacy-rules.md`).
+  (`../../Abdul Brain/wiki/ops/privacy-rules.md`).
 - Visual claims need **a real screenshot**, not a description. `node
   ../../scripts/webaudit.js <url>` produces desktop and mobile screenshots plus
   a real Lighthouse run.
@@ -74,7 +75,7 @@ End every scope or product review with exactly one line:
 ## Recording decisions
 
 Business-consequential decisions go in `../../decisions/log.md`. Anything that
-changes current priorities or blockers also updates `../../wiki/hot.md` — that
+changes current priorities or blockers also updates `../../Abdul Brain/wiki/hot.md` — that
 file is rewritten in full, never appended to.
 
 ## Git
